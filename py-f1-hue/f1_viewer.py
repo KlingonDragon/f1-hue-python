@@ -5,7 +5,7 @@ from .type_def.f1_viewer import FlagColour, StatusFlagMap, StatusDataJSON
 
 log = logging.getLogger(__name__)
 
-STATUS_FLAG_MAP: StatusFlagMap = {"1": "GREEN", "2": "YELLOW", "3": "RED", "4": "SC"}
+STATUS_FLAG_MAP: StatusFlagMap = {"1": "GREEN", "2": "YELLOW", "4": "SC", "5": "RED", "6": "VSC"}
 
 
 class F1ViewerConnection:

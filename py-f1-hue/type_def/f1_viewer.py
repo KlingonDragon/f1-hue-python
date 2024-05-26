@@ -1,7 +1,7 @@
 from typing import Literal, TypedDict
 
-StatusCode = Literal["1", "2", "3", "4"]
-FlagColour = Literal["GREEN", "YELLOW", "RED", "SC", "UNKNOWN"]
+StatusCode = Literal["1", "2", "4", "5", "6"]
+FlagColour = Literal["GREEN", "YELLOW", "SC", "RED", "VSC", "UNKNOWN"]
 StatusFlagMap = dict[StatusCode, FlagColour]
 
 
